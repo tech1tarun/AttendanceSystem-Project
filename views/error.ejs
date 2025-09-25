@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      .error-box {
+        margin-top: 100px;
+        padding: 20px;
+        display: inline-block;
+        border: 2px solid red;
+        border-radius: 8px;
+        background-color: #ffe6e6;
+      }
+      h1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-box">
+      <h1>⚠️ Oops! Something went wrong</h1>
+      <p><%= message %></p>
+      <a href="/">Go Back Home</a>
+    </div>
+  </body>
+</html>
